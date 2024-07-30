@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    background-color: #0046ad;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.transaction-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f8e1b4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.transaction-input select, .transaction-input input, .transaction-input button {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.transaction-input button {
+    background-color: #0046ad;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.transaction-input button:hover {
+    background-color: #003d99;
+}
+
+.transaction-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.transaction-table th {
+    background-color: #0046ad;
+    color: white;
+}
+
+.transaction-table td {
+    text-align: center;
+}
+
+.transaction-table .delete {
+    color: #e74c3c;
+    cursor: pointer;
+}
